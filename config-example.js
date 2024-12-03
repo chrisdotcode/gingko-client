@@ -5,7 +5,7 @@ module.exports = {
   COUCHDB_HOST: process.env.COUCHDB_HOST,
   COUCHDB_PORT: process.env.COUCHDB_PORT,
   COUCHDB_SERVER: process.env.COUCHDB_SERVER,
-  PUBLIC_KEY: process.env.PUBLIC_KEY,
+  PUBLIC_KEY: JSON.parse(process.env.PUBLIC_KEY),
   SUPPORT_EMAIL: process.env.SUPPORT_EMAIL,
   SUPPORT_URGENT_EMAIL: process.env.SUPPORT_URGENT_EMAIL,
   FRESHDESK_APPID: process.env.FRESHDESK_APPID,
