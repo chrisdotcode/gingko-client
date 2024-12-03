@@ -135,7 +135,6 @@
     "cypress": "^12.3.0",
     "cypress-file-upload": "^4.1.1",
     "cypress-watch-and-reload": "^1.2.18",
-    "electron": "^18.1.0",
     "electron-builder": "^23.0.3",
     "electron-notarize": "^1.2.1",
     "electron-rebuild": "^3.2.7",
