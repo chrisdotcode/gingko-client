@@ -143,6 +143,7 @@
     "elm-watch": "^1.1.2",
     "elm-webpack-loader": "^8.0.0",
     "esbuild": "^0.20.1",
+    "esbuild-envfile-plugin": "^1.0.7",
     "html-webpack-plugin": "^5.5.0",
     "postcss": "^8.4.25",
     "postcss-loader": "^7.3.3",

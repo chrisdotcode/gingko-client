@@ -1,6 +1,8 @@
 import * as esbuild from 'esbuild';
 import path from 'node:path'
 
+import envFilePlugin from 'esbuild-envfile-plugin';
+
 const myAliasPlugin = {
   name: "AliasPlugin",
   setup(build) {
@@ -13,7 +15,7 @@ const myAliasPlugin = {
 const result = await esbuild.build({
   entryPoints: ['./src/shared/doc.js', './src/shared/data.worker.js'],
   outdir: './web',
-  plugins: [myAliasPlugin],
+  plugins: [envFilePlugin, myAliasPlugin],
   minify: true,
   platform: 'browser',
   bundle: true,
